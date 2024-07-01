@@ -2,10 +2,10 @@ const express = require("express");
 const rbx = require("noblox.js");
 const app = express();
 
+const port = 3000;
 var groupId = process.env.group
 var cookie = process.env.cookie
 const key = process.env.key;
-const port = 3000;
 
 app.use(express.json());
 
